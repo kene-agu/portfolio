@@ -1,0 +1,162 @@
+:root {
+    --main-blue: #4980ff;
+    --dark-blue: #28293e;
+    --light-grey: #EFEFEF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: cursive;
+}
+
+.container {
+    max-width: 940px;
+    margin: auto;
+}
+
+.bg-color {
+    background-color:  var(--dark-blue);
+    color: white;
+}
+
+.btn {
+    background-color: var(--main-blue);
+    padding: 12px 4px;
+    border-radius: 6px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+hr {
+    width: 70px;
+    height: 8px;
+    background-color: #4980ff;
+    margin: 16px auto 32px auto;
+    border: none;
+}
+
+section .section-title {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+section p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #28293e;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+header li {
+    display: inline;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 22px;
+}
+
+section img#profile {
+    border-radius : 270px;
+    width: 263px;
+}
+
+section#hero {
+    padding-top: 63px;
+    padding-bottom: 58px;
+}
+
+section#hero h1 {
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0;
+    letter-spacing: -2px;
+}
+
+section#hero h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--main-blue);
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+section#hero p {
+    max-width: 456px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: white;
+}
+
+section#hero ul{
+    padding: 0;
+}
+
+section#hero li {
+    display: inline;
+    margin: 0 6px;
+}
+
+section#hero li img {
+    width: 37px;
+}
+
+section#skillset .skills {
+    width: 500px;
+    margin: auto;
+}
+
+section#skillset span {
+    display: inline-block;
+    background-color: var(--light-grey);
+    width: 146px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 72px;
+    margin: 8px;
+}
+
+section#contact {
+    background-color: var(--light-grey);
+}
+
+section#contact a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+
+section#contact a img {
+    vertical-align: middle;
+}
+
+footer {
+    font-size: 16px;
+    background-color: var(--light-grey);
+}
+
+footer .container {
+    padding: 24px 0;
+    border-top: 1px solid black;
+}
